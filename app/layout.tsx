@@ -9,21 +9,21 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'ElétriOrçamento - Orçamentos de Serviços Elétricos',
+  title: 'Elétricamento - Orçamentos de Serviços Elétricos',
   description: 'Crie orçamentos profissionais para serviços elétricos de forma rápida e fácil',
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/favicon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/favicon.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/favicon.png',
         type: 'image/svg+xml',
       },
     ],
